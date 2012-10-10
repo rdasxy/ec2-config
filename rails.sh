@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 #Set up a Ruby on Rails EC2 Box
 
 #Setting up Rails 3 on Amazon EC2 - Amazon Linux AMI

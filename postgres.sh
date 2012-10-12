@@ -14,9 +14,9 @@ service postgresql initdb
 chkconfig postgresql on
 
 service postgresql start
-chkconfig postgresql on
+
 #sudo -u postgres psql postgres
-#CREATE DATABASE intelliair
+#CREATE DATABASE intelliair;
 #\list
 
 exit

@@ -13,10 +13,13 @@ yum install postgresql postgresql-server postgresql-devel postgresql-contrib pos
 service postgresql initdb
 chkconfig postgresql on
 
+#postgresql pg_hba.conf located in /var/lib/pgsql9/data
+
 service postgresql start
 
 #sudo -u postgres psql postgres
 #CREATE DATABASE intelliair;
-#\list
+#\list --List Databases
+#\c intelliair --Connect to database intelliair
 
 exit
